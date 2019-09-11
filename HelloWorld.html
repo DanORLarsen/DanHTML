@@ -1,19 +1,27 @@
 <html>
 <title> JavaScript Tutorial
 </title>
-<head>My first hello world</head>
+<head>My first hello world
+        <script src="/JavaScript/javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+
+</head>
 <br></br>
 <body>
     <p class="plainText" id="demo">Hello World</p>
     <br>
     <button onclick="doThis()">Hello World</button>
+    <nav>
+            <li class="linkID"><a href="index.html">About</a></li>
+            <li class="linkID"><a href="side2.html">Spare time</a></li>
+            <li id="helloWorld" class="linkID"><a href="HelloWorld.html">My first HelloWorld</a></li>
+    </nav>
  </body>
 
  <script>
  function doThis(){document.getElementById("demo").style.color = "red";
  
 alert("COLOR CHANGED TO RED")
-
 }
  </script>
  </html>
