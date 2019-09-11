@@ -1,0 +1,28 @@
+* {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+p {color: silver}
+.linkID {color: green;}
+
+#about {
+  color: hotpink; 
+  padding: 15px; 
+  width: 150px; 
+  text-align: center; 
+  border: grey;
+  border: solid; }
+
+#helloWorld {display: none}
+
+a:visited {
+  color: green; 
+  margin: 30px}
+
+a:hover {
+  color: black; 
+  background: grey;}
+
+.red {color : red;}
+body {
+    background-image: url('/Billeder/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;}
