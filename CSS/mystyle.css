@@ -12,6 +12,8 @@ p {color: silver}
 
 #helloWorld {display: none}
 
+
+
 a:visited {
   color: green; 
   margin: 30px}
@@ -21,8 +23,13 @@ a:hover {
   background: grey;}
 
 .red {color : red;}
-body {
+#index {
     background-image: url('/Billeder/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: beige;}
+    
+#bgSparetime {background-color: beige;
+align-content: center;}
+
+.text2 {color: black}
