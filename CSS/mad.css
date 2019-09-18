@@ -1,27 +1,65 @@
 .center {
     margin: auto;
-    width: 60%;
+    width: 70%;
     background-color: #f6f8f9;
-    padding: 50px;
+    
+    padding: 120px;
   }
 
-.top {display: flex;
-align-content: flex-start;
+.top {
 max-height: 90px;
-}
-.topText {display: flex;
-flex-direction: column;
-}
-#torske {
-    max-width: 300px;
+
 }
 
-.content{background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
+h2{color: rgba(128, 128, 128, 0.856)}
+
+h3{
+padding-left: 580px;
+font-size: 30px;
+padding-top: 40px;
+margin-bottom: 10px;
 }
 
-#food-title {display: flex;
-justify-content: center;
-align-self: center;}
+.contentText{padding-left: 580px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#food {
+    max-width: 500px;
+	max-height: 400px;
+	
+}
+
+.content{
+    background-color: white;
+}
+
+.btn {
+    
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:13px 33px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-left: 165px;
+    margin-bottom: 50px;
+}
+.btn:hover {
+	background-color:#eb675e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
