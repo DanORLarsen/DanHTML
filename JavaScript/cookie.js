@@ -1,8 +1,8 @@
 function visit(){
   var visitss = getCookie("visits");
     if (visitss != ""){
-    visits = visits +1;
-    setCookie('visits', visits, 1);
+    visitss = visitss +1;
+    setCookie('visits', visitss, 1);
   }
   else{
     var visits = 0;
