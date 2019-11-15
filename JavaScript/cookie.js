@@ -1,6 +1,6 @@
 function visit(){
   if(typeof visits !== "undefined"){
-    visits++;
+    visits = visits +1;
     setCookie('visits', visits, 1);
   }
   else{
