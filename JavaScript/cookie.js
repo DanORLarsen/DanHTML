@@ -43,7 +43,7 @@ function setCookie(cname, cvalue, exdays) {
   }
   function deleteCookie(){
     document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    document.cookie = "visit=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = "visits=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
   }
   function checkVisits() {
     var visitss = getCookie("visits");
