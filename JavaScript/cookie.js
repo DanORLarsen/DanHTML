@@ -1,10 +1,10 @@
 function visit(){
-  if(visits){
+  if(typeof visits !== "undefined"){
     visits++;
     setCookie('visits', visits, 1);
   }
   else{
-    visits = 0;
+    var visits = 0;
     setCookie('visits', visits, 1);
   }
 }
