@@ -1,6 +1,6 @@
 function visit(){
   var visitss = getCookie("visits");
-    if (visitss != ""){
+    if (visitss != "" || Number.isNaN(visitss)){
     visitss = visitss +1;
     setCookie('visits', visitss, 1);
   }
