@@ -1,9 +1,11 @@
 function visit(){
   if(visits){
     visits++;
+    setCookie('visits', visits, 1);
   }
   else{
     visits = 0;
+    setCookie('visits', visits, 1);
   }
 }
 
@@ -40,4 +42,10 @@ function setCookie(cname, cvalue, exdays) {
   }
   function deleteCookie(){
     document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  }
+  function checkVisits() {
+    var visitss = getCookie("visits");
+    if (visitss != "") {
+     alert("Welcome again, you have visited this page " + visitss + " times within a day");
+    }
   }
