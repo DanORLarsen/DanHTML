@@ -1,7 +1,7 @@
 function visit(){
   var visitss = getCookie("visits");
     if (visitss != "" || Number.isNaN(visitss) || visitss == "NaN"){
-    visitss = visitss +1;
+    visitss = parseInt(visitss) + 1;
     setCookie('visits', visitss, 1);
   }
   else{
