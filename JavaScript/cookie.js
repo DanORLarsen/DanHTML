@@ -1,6 +1,6 @@
 function visit(){
   var visitss = getCookie("visits");
-    if (visitss != "" || Number.isNaN(visitss)){
+    if (visitss != "" || Number.isNaN(visitss) || visitss == "NaN"){
     visitss = visitss +1;
     setCookie('visits', visitss, 1);
   }
@@ -43,6 +43,7 @@ function setCookie(cname, cvalue, exdays) {
   }
   function deleteCookie(){
     document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = "visit=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
   }
   function checkVisits() {
     var visitss = getCookie("visits");
